@@ -35,7 +35,7 @@ namespace NumberMultiplier
                 }
                 return sum;
             }
-            void Program ()
+            void RunProgram ()
             {
                 Console.WriteLine("Hey, input a list of numbers, separated by a ','!");
                 var listOfNumbers = Console.ReadLine();
@@ -65,13 +65,13 @@ namespace NumberMultiplier
                 var continueOrNot = Console.ReadLine().ToLower();
                 if (continueOrNot == "y")
                 {
-                    Program();
+                    RunProgram();
                 }
                 else
                 {
                 }
             }
-            Program();
+            RunProgram();
             PlayAgain();
 
         }
